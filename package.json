@@ -1,0 +1,10 @@
+{
+    "name": "memory-webpack-plugin",
+    "description": "A webpack plugin for create memory assets",
+    "keywords": ["memory", "assets", "webpack", "plugin"],
+    "version": "0.0.1",
+    "main": "lib/index.js",
+    "repository": "git@github.com:edonet/memory-webpack-plugin.git",
+    "author": "edonet <edonet@163.com>",
+    "license": "MIT"
+}
