@@ -25,30 +25,13 @@ module.exports = {
 
 3. `import` in code;
 ``` javascript
-import style from '@memory/abc.css';
+import style from 'abc.css';
 
 // do something;
 console.log(style);
 ```
 
 ## Usage
-
-1. set/get memory in loader
-``` javascript
-module.exports = function loader(source) {
-
-    // set memory
-    this.$memory('abc.css', source);
-
-    // get memory
-    this.$memory('abc.css');
-
-    // do something;
-    ...
-};
-```
-
-2. extends `MemoryWebpackPlugin`
 ``` javascript
 const MemoryWebpackPlugin = require('memory-webpack-plugin');
 

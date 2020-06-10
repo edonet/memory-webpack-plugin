@@ -9,6 +9,7 @@
     ],
     "version": "0.0.103",
     "main": "lib/index.js",
+    "types": "lib/index.d.ts",
     "repository": "git@github.com:edonet/memory-webpack-plugin.git",
     "author": "edonet <edonet@163.com>",
     "license": "MIT"
